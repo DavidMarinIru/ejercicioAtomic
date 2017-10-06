@@ -1,0 +1,170 @@
+   *
+   {
+     margin:0;
+     padding:0;
+     box-sizing: border-box;
+   }
+
+   Body
+   {
+     margin:0;
+   }
+
+
+   .Cabecera
+   {
+     background: #333;
+     height:100px;
+   }
+   .Logo
+   {
+    position: absolute;
+    top: 25px;
+    left: 15px;
+    display: inline-block;
+    border: 1px solid #111;
+   }
+   .TitleHeader
+   {
+     position: absolute;
+display: block;
+left: 120px;
+top: 50px;
+font-size: 10px;
+   }
+
+   .TitleHeader h1
+   {
+     color:#fff;
+   }
+
+   .navigation
+   {
+     position: absolute;
+     top: 100px;
+     display: inline-block;
+     right: 0;
+   }
+   .navigation ul
+   {
+     list-style: none;
+   }
+
+   .navigation ul li
+   {
+    color: #fff;
+    padding: 10px;
+    background: #ccc;
+    margin: 0px;
+    border-right: 1px solid #fff;
+    border-left: 1px solid #fff;
+    border-top: 1px solid #fff;
+    width: 80px;
+    text-align: center;
+    display: inline-block;
+    float: left;
+   }
+   .navigation ul li a
+   {
+     text-decoration: none;
+    color: black;
+   }
+
+   main
+   {
+     margin:0 auto;
+     max-width:900px;
+   }
+
+   .descripcion
+   {
+     margin-top: 80px;
+     overflow: hidden;
+   }
+
+   .descripcion h2
+   {
+     border-bottom: 1px dashed #000;
+     text-indent: 20px;
+     margin-bottom: 50px;
+   }
+
+   .descripcion img
+   {
+       width:20%;
+       display: inline-block;
+       float:left;
+       border:1px solid #ccc;
+       border-radius: 50%;
+       padding:5px;
+   }
+
+   .descripcion p
+   {
+     width: 80%;
+     display: inline-block;
+     margin-top: 20px;
+     padding-left: 10px;
+   }
+
+    .container ul
+    {
+      list-style: none;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: stretch;
+    }
+
+    .container ul li
+    {
+      padding: 20px 0px 20px 10px;
+      width: 100%;
+    }
+
+    .container h2
+    {
+      text-align: center;
+    }
+
+    .container ul li img
+    {
+        width: 100%;
+        height:400px;
+    }
+
+    .forms
+    {
+      margin-top: 50px;
+    }
+  
+    @media screen and (min-width:1000px)
+    {
+       .container ul
+       {
+         list-style: none;
+         display: flex;
+         flex-direction: row;
+         flex-wrap: wrap;
+         justify-content: space-between;
+         align-items: stretch;
+       }
+
+       .container ul li
+       {
+         padding: 20px 0px 20px 10px;
+         width: 50%;
+       }
+
+       .container h2
+       {
+         text-align: center;
+       }
+
+       .container ul li img
+       {
+           width: 100%;
+           height:400px;
+       }
+    }
